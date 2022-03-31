@@ -2,12 +2,12 @@
 BTS_ImageView_Android에서 좀 더 발전된 Twice 멤버 사진을 보여주는 간단한 안드로이드 어플
 
 3월 29일 study:
-Element : splash, Hander, CardView, Margin, Padding ,putExtra ...etc
+Element : splash, Handler, CardView, Margin, Padding ,putExtra ...etc
 
         splash화면 설정 - activity생성 , manifests에서 mainactivity에 있는걸 생성한 activity쪽으로 이동하고 export를 true로 바꾼다.
         splash에서 다시 main으로 돌아가기위해서 handler().postDelayed 사용
         
-        hander Deprecated된거 생성자로 Looper.getMainLooper()를 넣어줘서 없앨수도있고
+        handler Deprecated된거 생성자로 Looper.getMainLooper()를 넣어줘서 없앨수도있고
         @Suppress("DEPRECATION")로 표현식에대한 진단을 억제할수도있다.
         
         타이틀바를 없애려면values->themes 에서 <item name="windowNoTitle">true</item>
